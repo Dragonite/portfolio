@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-alpha: 244 63 94;
+  --color-beta: 168 85 247;
+}
+
+:is(h1,h2,h3,h4,h5,h6)>em {
+  font-style: normal;
+  background-image: linear-gradient(to bottom right,var(--tw-gradient-stops));
+  --tw-gradient-from: rgb(var(--color-alpha)/1);
+  --tw-gradient-to: rgb(var(--color-alpha)/0);
+  --tw-gradient-stops: var(--tw-gradient-from),var(--tw-gradient-to);
+  --tw-gradient-to: rgb(var(--color-beta)/1);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+a, button, svg {
+  transition: all 0.35s ease-in-out;
+}
+
+.animate-typewriter {
+  animation: typing 2s steps(30);
+}
+
+.animate-blink {
+  animation: blink-caret .75s steps(17) infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from { color: black }
+  to { color: white }
+}

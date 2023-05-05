@@ -2,5 +2,17 @@
     "index": 1,
     "name": "Archee",
     "featured": true,
-    "description": "This is archee!"
+    "description": "Archee is a suite of agile tools designed to improve velocity of teams. Archee offers a solution based on the popular Planning Poker strategy, and is currently used by hundreds of users.",
+    "image": "/projects/archee.png",
+    "technologies": [
+        "NextJS",
+        "React",
+        "TypeScript",
+        "Tailwind",
+        "Webhooks",
+        "Express",
+        "Vercel"
+    ],
+    "github": "https://github.com/ArcheeApp",
+    "live": "https://archeeapp.com"
 }

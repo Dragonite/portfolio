@@ -15,7 +15,7 @@ export default async function Home() {
         </h1>
         <h2 className='w-full mt-4 sm:mt-8'>
           <div className="m-0 inline-flex mx-auto font-mono text-xl sm:text-4xl">
-            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" className="hidden sm:block shrink-0 grow-0 self-center text-slate-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" stroke-linecap="square" stroke-miterlimit="10" stroke-width="48" d="M184 112l144 144-144 144"></path></svg>
+            <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 512 512" className="hidden sm:block shrink-0 grow-0 self-center text-slate-500" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" strokeLinecap="square" strokeMiterlimit="10" strokeWidth="48" d="M184 112l144 144-144 144"></path></svg>
             <span className="animate-typewriter overflow-hidden text-slate-100 whitespace-nowrap">
               Software & Data Engineer
             </span>

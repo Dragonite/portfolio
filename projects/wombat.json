@@ -1,0 +1,14 @@
+{
+    "index": 4,
+    "name": "Wombat",
+    "featured": true,
+    "description": "Wombat is an algorithm and machine learning model designed to read tabular data and forms from a leading mining entity, while ingesting data from external sources, producing machine readable data that provides insights through data visualisation.",
+    "image": "/projects/wombat.png",
+    "technologies": [
+        "Django",
+        "Python",
+        "Tensorflow",
+        "OCR",
+        "Table Detection"
+    ]
+}

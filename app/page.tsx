@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import FeaturedProjects from '@/components/FeaturedProjects';
+import Skills from '@/components/Skills';
 
 const urls = {
   github: 'https://github.com/Dragonite',
@@ -34,6 +35,7 @@ export default async function Home() {
       </div>
       {/* @ts-expect-error Server Component */}
       <FeaturedProjects />
+      <Skills />
     </main>
   )
 }

@@ -1,0 +1,16 @@
+{
+    "index": 3,
+    "name": "Discord Utilities",
+    "featured": true,
+    "description": "Discord Utilities is a bot and webhook CI/CD system written to manage multiple large online community servers, each with 10k+ members. It is designed to give automated event updates, role management, statistical calculations and leaderboards to promote a more engaging environment for the communities.",
+    "image": "/projects/solly.png",
+    "technologies": [
+        "DiscordJS",
+        "TypeScript",
+        "TypeORM",
+        "PlanetScale",
+        "cron",
+        "axios"
+    ],
+    "github": "https://github.com/nexaod"
+}

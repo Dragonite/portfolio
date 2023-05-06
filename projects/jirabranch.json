@@ -1,0 +1,13 @@
+{
+    "index": 6,
+    "name": "Jira Git Branch",
+    "featured": true,
+    "description": "A Chrome extension that adds a 'Copy Git Branch Name' button, allowing for a slug-ified git valid branch name. Compliant on specific Jira Server versions.",
+    "image": "/projects/jirabranch.jpg",
+    "technologies": [
+        "Chrome Extension",
+        "TypeScript"
+    ],
+    "github": "https://github.com/Dragonite/jira-git-branch",
+    "live": "https://chrome.google.com/webstore/detail/jira-git-branch/ghldoljjdhjnjggheahiakhjofpikoco"
+}

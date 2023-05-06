@@ -1,0 +1,15 @@
+{
+    "index": 5,
+    "name": "UWA Pharmacy",
+    "featured": true,
+    "description": "An application written to manage, create and teach the University of Western Australia's pharmacy students a variety of scenarios during their placements.",
+    "image": "/projects/pharmacy.png",
+    "technologies": [
+        "Django",
+        "Python",
+        "Sass",
+        "AWS",
+        "RDS"
+    ],
+    "github": "https://github.com/320011/case"
+}

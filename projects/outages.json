@@ -1,0 +1,17 @@
+{
+    "index": 2,
+    "name": "Telstra Outages",
+    "featured": true,
+    "description": "Telstra Outages is an application designed to display network outages for customers. This application significantly increased a customer's ability to find an outage, as well as displayed information such as polygons to show valuable outage zones. It is used by hundreds of thousands of customers across Australia.",
+    "image": "/projects/outages.png",
+    "technologies": [
+        "React",
+        "TypeScript",
+        "Sass",
+        "Express",
+        "Google Maps API",
+        "Adobe Experience Manager",
+        "Express"
+    ],
+    "live": "https://www.telstra.com.au/outages"
+}

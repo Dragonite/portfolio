@@ -31,7 +31,7 @@ const FeaturedProjects = async () => {
         </h3>
         <div className='mx-8 mt-12 flex flex-wrap justify-center'>
             {featuredProjects.map((project: ProjectInterface) => {
-                return <Project key={project.index} project={project} />
+                return <Project key={`project_${project.index}_${project.name}`} project={project} />
             })}
         </div>
         <div className='h-24 flex flex-col justify-center'>

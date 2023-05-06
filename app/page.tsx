@@ -36,6 +36,7 @@ export default async function Home() {
       {/* @ts-expect-error Server Component */}
       <FeaturedProjects />
       <Skills />
+      <div className='text-gray-400 pb-4 text-center'>Copyright © 2023 Haolin Wu</div>
     </main>
   )
 }

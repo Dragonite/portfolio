@@ -1,6 +1,7 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useState } from "react"
+import { useRouter } from 'next/navigation';
 
 export interface NavBarLink {
     url: string,
@@ -11,9 +12,22 @@ export const NavBar = () => {
 
     const [mobileOpen, setMobileOpen] = useState(false);
 
+    const router = useRouter();
+
     const handleMobileToggle = () => {
         setMobileOpen(!mobileOpen);
     }
+
+    const handleClick = (event: any, elementId: string) => {
+        event.preventDefault();
+        router.push('/');
+        setTimeout(() => {
+            const skills = document.getElementById(elementId);
+            if (skills) {
+                skills.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        }, 400);
+    };
 
     const links: NavBarLink[] = [
         {
@@ -39,13 +53,13 @@ export const NavBar = () => {
             <div className="items-center justify-between hidden sm:flex" id="navbar-sticky">
                 <ul className="flex gap-4 p-0 font-medium rounded-lg">
                     <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Home</a>
+                        <a href="/" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Home</a>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Projects</a>
+                        <a href="/projects" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Projects</a>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Skills</a>
+                        <button type="button" onClick={(event) => handleClick(event, 'skills')} className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Skills</button>
                     </li>
                     <li>
                         <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</a>

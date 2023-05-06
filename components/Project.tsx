@@ -18,7 +18,7 @@ interface ProjectProps {
 }
 
 const Project = ({ project }: ProjectProps) => {
-    return <div key={project.index} className='m-4 hover:-translate-y-4 transition-all ease-in-out duration-300 w-72 sm:w-80 bg-zinc-800 rounded-xl'>
+    return <div className='m-4 hover:-translate-y-4 transition-all ease-in-out duration-300 w-72 sm:w-80 bg-zinc-800 rounded-xl'>
         <div className="mb-2 py-4 text-xl font-bold text-slate-100 relative">
             {project.name}
             {project.live ? (
@@ -36,7 +36,7 @@ const Project = ({ project }: ProjectProps) => {
         <div className="mt-4 pb-4 text-slate-100 px-4">{project.description}</div>
         <div className="flex flex-wrap px-4 justify-center pb-4">
             {project.technologies.map(technology => {
-                return <div key={technology} className="w-max bg-gray-700 text-gray-300 text-xs font-medium m-1 px-2.5 py-0.5 rounded">{technology}</div>
+                return <div key={`${project.name}_${project.index}_${technology}`} className="w-max bg-gray-700 text-gray-300 text-xs font-medium m-1 px-2.5 py-0.5 rounded">{technology}</div>
             })}
         </div>
         {project.github ? (

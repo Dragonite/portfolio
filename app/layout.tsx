@@ -19,6 +19,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <NavBar />
         {children}
+        <div className='bg-zinc-900 text-gray-400 pb-4 text-center'>Copyright © 2023 Haolin Wu</div>
       </body>
     </html>
   )

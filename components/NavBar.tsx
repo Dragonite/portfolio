@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { useRouter } from 'next/navigation';
+import Link from "next/link";
 
 export interface NavBarLink {
     url: string,
@@ -53,16 +54,16 @@ export const NavBar = () => {
             <div className="items-center justify-between hidden sm:flex" id="navbar-sticky">
                 <ul className="flex gap-4 p-0 font-medium rounded-lg">
                     <li>
-                        <a href="/" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Home</a>
+                        <Link href="/" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Home</Link>
                     </li>
                     <li>
-                        <a href="/projects" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Projects</a>
+                        <Link href="/projects" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Projects</Link>
                     </li>
                     <li>
                         <button type="button" onClick={(event) => handleClick(event, 'skills')} className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Skills</button>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</a>
+                        <Link href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</Link>
                     </li>
                 </ul>
             </div>
@@ -81,16 +82,16 @@ export const NavBar = () => {
             <div className="items-center justify-between flex sm:hidden" id="navbar-sticky">
                 <ul className="w-full gap-4 p-4 font-medium rounded-lg bg-zinc-800 mx-4">
                     <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Home</a>
+                        <Link href="/" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Home</Link>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Projects</a>
+                        <Link href="/projects" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Projects</Link>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Skills</a>
+                        <button type="button" onClick={(event) => handleClick(event, 'skills')} className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Skills</button>
                     </li>
                     <li>
-                        <a href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</a>
+                        <Link href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</Link>
                     </li>
                 </ul>
             </div>

@@ -4,10 +4,6 @@ import Image from 'next/image';
 import { NextResponse } from 'next/server';
 import { useEffect, useState } from 'react';
 
-export const metadata = {
-    title: "Contact Haolin",
-};
-
 export async function GET() {
     const data = { 'hello': 'hi' };
 

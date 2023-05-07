@@ -1,0 +1,15 @@
+{
+    "index": 9,
+    "name": "Whitehat",
+    "description": "A Discord bot and REST API Framework written in both JavaScript and Django for the University of Western Australia's Ethical Hacking Club to manage events and other administrative tasks. Additionally, Whitehat uses API webhooks to deliver event messages through user forms as an alternative to bot messages.",
+    "image": "/projects/whitehat.png",
+    "technologies": [
+        "JavaScript",
+        "Django",
+        "Python",
+        "Webhooks",
+        "JQuery",
+        "REST API"
+    ],
+    "github": "https://github.com/dragonite/whitehat"
+}

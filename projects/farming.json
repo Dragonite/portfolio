@@ -1,0 +1,12 @@
+{
+    "index": 11,
+    "name": "Farming Calculator",
+    "description": "A Discord bot written in TypeScript to calculate the next breeding tick of an animal within RuneScape, an online MMO. It uses cronjobs to broadcast and send push notifications to a user.",
+    "image": "/projects/farming.png",
+    "technologies": [
+        "cron",
+        "TypeScript",
+        "DiscordJS"
+    ],
+    "github": "https://github.com/varrock/anachronia"
+}

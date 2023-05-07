@@ -1,0 +1,14 @@
+{
+    "index": 8,
+    "name": "Fishing",
+    "description": "A website built using Flask to record and visualise the most popular fish and their locations within the Perth region, while surveying users on their fishing experiences.",
+    "image": "/projects/fishing.png",
+    "technologies": [
+        "Flask",
+        "Python",
+        "CSS",
+        "HTML5",
+        "JQuery"
+    ],
+    "github": "https://github.com/dragonite/fishing"
+}

@@ -1,0 +1,12 @@
+{
+    "index": 10,
+    "name": "Macro Builder",
+    "description": "A versatile keyboard macro built on top of AutoHotKey and Image Recognition to perform tasks depending on the conditions of screen regions.",
+    "image": "/projects/macrobuilder.png",
+    "technologies": [
+        "AutoHotKey",
+        "Image Recognition",
+        "OCR"
+    ],
+    "github": "https://github.com/Dragonite/imagesearch"
+}

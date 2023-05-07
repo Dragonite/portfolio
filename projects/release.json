@@ -1,0 +1,13 @@
+{
+    "index": 7,
+    "name": "Release Generator",
+    "description": "A cross-platform application built in Electron to use markdown and generate PDFs for formal deployment releases.",
+    "image": "/projects/release.png",
+    "technologies": [
+        "Electron",
+        "TypeScript",
+        "Bootstrap",
+        "PDF Generation"
+    ],
+    "github": "https://github.com/Dragonite/release-generator"
+}

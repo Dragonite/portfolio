@@ -4,12 +4,6 @@ import Image from 'next/image';
 import { NextResponse } from 'next/server';
 import { useEffect, useState } from 'react';
 
-export async function GET() {
-    const data = { 'hello': 'hi' };
-
-    return NextResponse.json({ data });
-}
-
 export default function Contact() {
 
     const [buttonDisabled, setButtonDisabled] = useState(false);

@@ -30,25 +30,6 @@ export const NavBar = () => {
         }, 400);
     };
 
-    const links: NavBarLink[] = [
-        {
-            url: '/',
-            label: 'Home'
-        },
-        {
-            url: '/projects',
-            label: 'Projects'
-        },
-        {
-            url: '/skills',
-            label: 'Skills'
-        },
-        {
-            url: '/contact',
-            label: 'Contact'
-        },
-    ]
-
     return <nav className="bg-zinc-900 fixed w-full z-20 top-0 left-0">
         <div className="max-w-screen-xl flex flex-wrap sm:justify-center justify-end flex-wrap mx-auto p-4">
             <div className="items-center justify-between hidden sm:flex" id="navbar-sticky">
@@ -63,7 +44,7 @@ export const NavBar = () => {
                         <button type="button" onClick={(event) => handleClick(event, 'skills')} className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Skills</button>
                     </li>
                     <li>
-                        <Link href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</Link>
+                        <Link href="/contact" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</Link>
                     </li>
                 </ul>
             </div>
@@ -91,7 +72,7 @@ export const NavBar = () => {
                         <button type="button" onClick={(event) => handleClick(event, 'skills')} className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Skills</button>
                     </li>
                     <li>
-                        <Link href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</Link>
+                        <Link href="/contact" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-700">Contact</Link>
                     </li>
                 </ul>
             </div>

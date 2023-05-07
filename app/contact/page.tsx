@@ -1,7 +1,6 @@
 "use client"
 
 import Image from 'next/image';
-import { NextResponse } from 'next/server';
 import { useEffect, useState } from 'react';
 
 export default function Contact() {
